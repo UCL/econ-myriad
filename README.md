@@ -20,5 +20,12 @@ Typical use of Myriad is:
 ssh -X username@econ-myriad.rc.ucl.ac.uk
 ````
 
+** The "-X" flag enables "x-forwarding". This is required to allow Myriad to forward graphical images to your local computer monitor
+** Replace the word "username" with your username.
+** After entering the command, the system will ask that you enter a password
 
+Once you are connected you can use any unix commands to: 
+1. create, copy, delete or move files or directories.
+2. connect to a "compute" node
+3. connect to RDSS using sftp to copy data from RDSS to Myriad
 
