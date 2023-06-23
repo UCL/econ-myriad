@@ -20,8 +20,8 @@ Typical use of Myriad is:
 ssh -X username@econ-myriad.rc.ucl.ac.uk
 ````
 
-*The "-X" flag enables "x-forwarding". This is required to allow Myriad to forward graphical images to your local computer monitor
-*Replace the word "username" with your username.
+* The "-X" flag enables "x-forwarding". This is required to allow Myriad to forward graphical images to your local computer monitor
+* Replace the word "username" with your username.
 * After entering the command, the system will ask that you enter a password
 
 Once you are connected you can use any unix commands to: 
@@ -29,3 +29,17 @@ Once you are connected you can use any unix commands to:
 2. connect to a "compute" node
 3. connect to RDSS using sftp to copy data from RDSS to Myriad
 
+To end a Myriad session, type
+
+````
+exit
+````
+
+# Connect using web browser
+If you are not connected to the UCL network, first connect to the UCL VPN. Then open a web browser (Safari does not always work), and go to the following website:
+````
+https
+````
+# Copy data from RDSS to Myriad
+# Run stata
+# Copy data or files to/from Myriad
